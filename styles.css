@@ -1,0 +1,72 @@
+h2 {
+	text-align: center;
+	padding: 40px 0;
+}
+
+form {
+	width: 50%; 
+	margin: 30px auto; 
+	border-radius: 5px; 
+}
+form p {
+	color: red;
+	margin: 0px;
+}
+.task_input {
+	width: 80%;
+	height: 39px; 
+    border:  none;
+    border-bottom: 2px solid #17A2B8; 
+    outline: none;
+    margin-right: 10px;
+}
+.add_btn {
+	height: 39px;
+	background: none;
+	color: 	#6B8E23;
+	border: 1px solid black;
+	padding: 5px 20px;
+	font-size: 20px;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+	font-size: 19px;
+	color: #6B8E23;
+}
+
+th, td{
+	border: none;
+    height: 60px;
+    padding: 2px;
+}
+
+tr:hover {
+	background: #E9E9E9;
+}
+
+.task {
+	text-align: left;
+}
+
+.edit, .delete {
+	width: 30px;
+}
+
+.btn {
+	width: 80px;
+	margin-right: 10px;
+}
+
+.task_num {
+    display: none;
+}
